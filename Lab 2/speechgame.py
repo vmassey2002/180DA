@@ -58,7 +58,7 @@ if __name__ == "__main__":
                 break
             if not guess["success"]:
                 break
-            print("I didn't catch that. What did you say?\n")
+            print("I did not understand. What did you say?\n")
 
         if guess["error"]:
             print("ERROR: {}".format(guess["error"]))
